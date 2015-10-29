@@ -1,0 +1,141 @@
+::selection{
+	background:#F16059;
+}
+body{
+	background-color: #F9F9F9 !important;
+}
+
+/*                navigation menu         */
+#my-navbar{
+	border-bottom: none;
+}
+#menu{
+	color: #747377;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+}
+#menu>li>a:hover{
+	color: #F16059;
+}
+#brandname{
+	font-size: 32px;
+	font-family: 'Dancing Script', cursive;
+	color: #F16059;
+}
+
+/*                header                   */
+.jumbotron{
+	position: relative;
+	background: transparent !important;*/
+}
+.header-img>img{
+	width: 100%;
+	height: auto;
+}
+.content{
+	/*background: rgba(0, 0, 0, 0.5);*/
+	top: 200px;
+	vertical-align: middle;
+	z-index: 7;
+	position: absolute;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+/*                services             */
+#services, #contact{
+	margin-top: 5%;
+}
+.heading>h3{
+	font-size: 5em;
+	/*vertical-align: middle;*/
+	margin-bottom: 5%;
+	text-align: center;
+}
+.details{
+	margin-right: 0;
+	padding-right: 0;
+}
+.details>h5{
+	font-size: 24px;
+}
+.details>p{
+	color: #3B3B3B;
+	font-size: 16px;
+	line-height: 40px;
+}
+
+/*                contact            */
+.form{
+	margin-bottom: 5% !important;
+	width: 100%;
+	background-color: #fff;
+	margin: 0 auto;
+}
+form{
+	padding: 3%;
+	width: 250px;
+	margin: 0 auto;
+}
+input[type="text"]{	
+	outline:none; 
+  	font-size:18px;
+  	padding:10px 10px 10px 5px;
+  	display:block;
+  	border:none;
+  	border-bottom:2px solid #333333;
+  	/*border:1px solid #eee;*/
+}
+textarea{
+	border:none;
+	outline:none; 
+	font-size:20px;
+  	padding:10px 10px 10px 5px;
+  	display:block;
+  	border-bottom:2px solid #333333;
+  	/*border:1px solid #eee;*/
+}
+input[type="text"]:focus, textarea:focus{
+	border-bottom:2px solid #F16059;
+}
+input[type="submit"]{
+	border: none;
+	color: #fff;
+	background-color: #F16059;
+
+}
+/*                  foooter             */
+.footer{
+	font-size: 12px;
+	padding: 3%;
+	text-align: center;
+	background-color: #333333;
+	color: #fff;
+}
+
+
+@media screen and (max-width: 768px) {
+	.jumbotron{
+		height: auto;
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+	.content{
+		top: 30px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
