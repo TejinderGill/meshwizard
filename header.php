@@ -1,3 +1,4 @@
+<!doctype html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -12,7 +13,9 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/half-slider.css"/>
     <link rel="stylesheet" href="css/index.css"/>
+
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="bootstrap/bootstrap.css"/>
@@ -33,7 +36,7 @@
 	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
 	    <div class="container">
 	        <div class="navbar-header">
-	            <button type="button" class="navbar-toggle navbar-right" data-toggle="collapse" data-target="#navbar-collapse">
+	            <button type="button" class="navbar-toggle navbar-right" aria-expanded="false" data-toggle="collapse" data-target="#navbar-collapse">
 	                <span class="icon-bar"></span>
 	                <span class="icon-bar"></span>
 	                <span class="icon-bar"></span>
@@ -44,7 +47,8 @@
 	        <div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
 	            <ul class="nav navbar-nav" id="menu">
 	                <li><a href="index.php">Home</a></li>
-	                <li><a href="#work">Work</a></li>
+	                <li><a href="work.php">Work</a></li>
+	                <li><a href="team.php">Team</a></li>
 	                <li><a href="services.php">Services</a></li>
 	                <li><a href="contact.php">Contact</a></li>
 	            </ul>

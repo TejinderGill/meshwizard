@@ -1,100 +1,89 @@
 <?php include('header.php'); ?>
 
 	<!--                header                    -->
-<!-- 	<div class="container" > -->
-		<div class="jumbotron" id="header">
-			<div class="header-img">
-				<img class="img-responsive" src="images/bg.jpg">
+    <!-- Half Page Image Background Carousel Header -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 1</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 2</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+<!-- container -->
+
+	<div class="conatiner">
+		<div class="row">
+			<div class="col-md-8">
+				
 			</div>
-			<div class="content">
-				<h2>Meshwizard</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum convallis libero, quis ultrices urna tincidunt bibendum. Maecenas</p>
+			<div class="col-md-4">
+				
 			</div>
-		</div>
-	 <!-- </div> -->
-<!--           Work             -->
-<div class="container">
-	<div class="col-md-12">
-		<h3>A Little of What We Do...</h3>
-		<div class="col-md-4">
-			<div class="thumbnail">
-	            <img src="images/bg.jpg" alt="">
-	            <div class="caption">
-	                <h3>Blind River District Hospital</h3>
-	                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt quis enim vel tincidunt. 
-	                	Duis eget aliquet ligula. Curabitur lacinia dictum nunc. Integer eget convallis justo. Aliquam 
-	                	a laoreet neque, vitae elementum erat. Maecenas faucibus diam at</p>
-	                <p><a href="" target="blank" class="btn btn-info" role="button">Visit Site</a> </p>
-	            </div> <!--end caption--> 
-	        </div><!--end thumbnail-->
-		</div>
+		</div> <!--end row-->
+	</div><!--end conatiner-->
 
-		<div class="col-md-4">
-			<div class="thumbnail">
-	            <img src="images/bg.jpg" alt="">
-	            <div class="caption">
-	                <h3>Blind River District Hospital</h3>
-	                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt quis enim vel tincidunt. 
-	                	Duis eget aliquet ligula. Curabitur lacinia dictum nunc. Integer eget convallis justo. Aliquam 
-	                	a laoreet neque, vitae elementum erat. Maecenas faucibus diam at</p>
-	                <p><a href="" target="blank" class="btn btn-info" role="button">Visit Site</a> </p>
-	            </div> <!--end caption--> 
-	        </div><!--end thumbnail-->
-		</div>
 
-		<div class="col-md-4">
-			<div class="thumbnail">
-	            <img src="images/bg.jpg" alt="">
-	            <div class="caption">
-	                <h3>Blind River District Hospital</h3>
-	                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt quis enim vel tincidunt. 
-	                	Duis eget aliquet ligula. Curabitur lacinia dictum nunc. Integer eget convallis justo. Aliquam 
-	                	a laoreet neque, vitae elementum erat. Maecenas faucibus diam at</p>
-	                <p><a href="" target="blank" class="btn btn-info" role="button">Visit Site</a> </p>
-	            </div> <!--end caption--> 
-	        </div><!--end thumbnail-->
-		</div>
 
-		<div class="col-md-4">
-			<div class="thumbnail">
-	            <img src="images/bg.jpg" alt="">
-	            <div class="caption">
-	                <h3>Blind River District Hospital</h3>
-	                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt quis enim vel tincidunt. 
-	                	Duis eget aliquet ligula. Curabitur lacinia dictum nunc. Integer eget convallis justo. Aliquam 
-	                	a laoreet neque, vitae elementum erat. Maecenas faucibus diam at</p>
-	                <p><a href="" target="blank" class="btn btn-info" role="button">Visit Site</a> </p>
-	            </div> <!--end caption--> 
-	        </div><!--end thumbnail-->
-		</div>
 
-		<div class="col-md-4">
-			<div class="thumbnail">
-	            <img src="images/bg.jpg" alt="">
-	            <div class="caption">
-	                <h3>Blind River District Hospital</h3>
-	                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt quis enim vel tincidunt. 
-	                	Duis eget aliquet ligula. Curabitur lacinia dictum nunc. Integer eget convallis justo. Aliquam 
-	                	a laoreet neque, vitae elementum erat. Maecenas faucibus diam at</p>
-	                <p><a href="" target="blank" class="btn btn-info" role="button">Visit Site</a> </p>
-	            </div> <!--end caption--> 
-	        </div><!--end thumbnail-->
-		</div>
 
-		<div class="col-md-4">
-			<div class="thumbnail">
-	            <img src="images/bg.jpg" alt="">
-	            <div class="caption">
-	                <h3>Blind River District Hospital</h3>
-	                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt quis enim vel tincidunt. 
-	                	Duis eget aliquet ligula. Curabitur lacinia dictum nunc. Integer eget convallis justo. Aliquam 
-	                	a laoreet neque, vitae elementum erat. Maecenas faucibus diam at</p>
-	                <p><a href="" target="blank" class="btn btn-info" role="button">Visit Site</a> </p>
-	            </div> <!--end caption--> 
-	        </div><!--end thumbnail-->
-		</div>
 
-	</div>
-</div><!--end conatiner-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <?php include('footer.php'); ?>

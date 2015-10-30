@@ -44,7 +44,7 @@ body{
 
 
 /*                services             */
-#services, #contact{
+#services, #contact, #work{
 	margin-top: 5%;
 }
 .heading>h3{
@@ -104,6 +104,13 @@ input[type="submit"]{
 	color: #fff;
 	background-color: #F16059;
 
+}
+input[type="submit"]{
+	width: 60%;
+	padding: 3%;
+	font-size: 16px;
+	border-radius: 5%;
+	color: #fff;
 }
 /*                  foooter             */
 .footer{

@@ -9,7 +9,7 @@
 					<input type="text" placeholder="Email" name="email"><br>
 					<input type="text" placeholder="Company" name="company"><br>
 					<input type="text" placeholder="Phone" name="phone"><br>
-					<textarea placeholder="Message" name="comment" rows="5" cols="40"></textarea><br>
+					<textarea placeholder="Message" name="comment" rows="5" cols="40"></textarea><br>				
 					<input id="submit" type="submit" name="submit" value="Submit">
 			</form>
 		</div>

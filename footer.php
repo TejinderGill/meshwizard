@@ -9,6 +9,12 @@
     <script src="js/index.js"></script>
 
     <!-- bootstrap jquery -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slider.js"></script>
+     <script>
+    $('.carousel').carousel({
+        interval: 2000 //control the speed
+    })
+    </script>
 </body>
 </html>
