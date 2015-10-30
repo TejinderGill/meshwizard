@@ -50,16 +50,12 @@ h3{
 #section1>.row, #section2>.row{
 	margin: 3%;
 }
-#section2		{
+.container>#section2{
 	background-color: #fff;
-}
-.image{
-	/*background: #EF635C;*/
-	/*border-radius: 50%;*/
 }
 .image>img{
 	display: block;
-	border: 5px solid #fff;
+	/*border: 5px solid #fff;*/
 	padding: 5%;
 
 }

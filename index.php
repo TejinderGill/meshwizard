@@ -70,20 +70,36 @@
 			</div>
 		</div> <!--end row-->
 	</div><!--end conatiner-->
-	<div class="ontainer" id="section2">
+
+<!-- team members -->
+	<div class="container" id="section2">
 		<div class="row" >
-			<div class="col-md-4">
-				<div class="image">
+			<div class="col-md-12">
+				<h2>Team</h2>
+				<div class="col-md-4">
 					<img class="img-responsive" src="images/bg.jpg" alt="Team member1">
 				</div>
+				<div class="col-md-8">
+					<h2>Jyoti Rawat</h2>
+					<p>Introduce the visitor to the business using clear, informative text. Use well-targeted keywords 
+						within your sentences to make sure search engines can find the business.</p>
+					<p>Introduce the visitor to the business using clear, informative text. Use well-targeted keywords 
+						within your sentences to make sure search engines can find the business.</p>
+					<a id="read" href=""> Read More</a> 
+				</div>
 			</div>
-			<div class="col-md-8">
-				<h2>Jyoti Rawat</h2>
-				<p>Introduce the visitor to the business using clear, informative text. Use well-targeted keywords 
-					within your sentences to make sure search engines can find the business.</p>
-				<p>Introduce the visitor to the business using clear, informative text. Use well-targeted keywords 
-					within your sentences to make sure search engines can find the business.</p>
-				<a id="read" href=""> Read More</a> 
+			<div class="col-md-12">
+				<div class="col-md-8">
+					<h2>Jyoti Rawat</h2>
+					<p>Introduce the visitor to the business using clear, informative text. Use well-targeted keywords 
+						within your sentences to make sure search engines can find the business.</p>
+					<p>Introduce the visitor to the business using clear, informative text. Use well-targeted keywords 
+						within your sentences to make sure search engines can find the business.</p>
+					<a id="read" href=""> Read More</a> 
+				</div>
+				<div class="col-md-4">
+						<img class="img-responsive" src="images/bg.jpg" alt="Team member1">
+				</div>
 			</div>
 		</div>
 	</div>
