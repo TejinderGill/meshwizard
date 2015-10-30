@@ -45,17 +45,48 @@
     </header>
 <!-- container -->
 
-	<div class="conatiner">
+	<div class="conatiner" id="section1">
 		<div class="row">
 			<div class="col-md-8">
-				
+				<h2>Our Work</h2>
+				<p>Introduce the visitor to the business using clear, informative text. Use well-targeted keywords 
+					within your sentences to make sure search engines can find the business.</p>
+				<p>Introduce the visitor to the business using clear, informative text. Use well-targeted keywords 
+					within your sentences to make sure search engines can find the business.</p>
+				<p>Introduce the visitor to the business using clear, informative text. Use well-targeted keywords 
+					within your sentences to make sure search engines can find the business.</p>
 			</div>
 			<div class="col-md-4">
-				
+				<h2>Contact Us</h2>
+				<address>
+					<strong>MeshWizard</strong>
+					<br>
+					Toronto, ON 
+					<br>Canada
+				</address>
+				<address>
+					<i class="fa fa-envelope-o"></i> info@meshwizard.com
+				</address>
 			</div>
 		</div> <!--end row-->
 	</div><!--end conatiner-->
-
+	<div class="ontainer" id="section2">
+		<div class="row" >
+			<div class="col-md-4">
+				<div class="image">
+					<img class="img-responsive" src="images/bg.jpg" alt="Team member1">
+				</div>
+			</div>
+			<div class="col-md-8">
+				<h2>Jyoti Rawat</h2>
+				<p>Introduce the visitor to the business using clear, informative text. Use well-targeted keywords 
+					within your sentences to make sure search engines can find the business.</p>
+				<p>Introduce the visitor to the business using clear, informative text. Use well-targeted keywords 
+					within your sentences to make sure search engines can find the business.</p>
+				<a id="read" href=""> Read More</a> 
+			</div>
+		</div>
+	</div>
 
 
 
