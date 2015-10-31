@@ -45,7 +45,7 @@
     </header>
 <!-- container -->
 
-	<div class="conatiner" id="section1">
+	<div id="section1">
 		<div class="row">
 			<div class="col-md-8">
 				<h2>Our Work</h2>
@@ -72,9 +72,9 @@
 	</div><!--end conatiner-->
 
 <!-- team members -->
-	<div class="container" id="section2">
+	<div id="section2">
 		<div class="row" >
-			<div class="col-md-12">
+			<div class="col-md-12 team">
 				<h2>Team</h2>
 				<div class="col-md-4">
 					<img class="img-responsive" src="images/bg.jpg" alt="Team member1">

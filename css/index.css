@@ -43,20 +43,23 @@ h3{
 	text-align: center;
 	margin: 0 auto;
 }*/
-
+.team{
+	margin-bottom: 3%;
+}
 #section1{
 	background-color: #F9F9F9;
+}
+#section1 p, #section2 p{
+	font-size: 18px;
 }
 #section1>.row, #section2>.row{
 	margin: 3%;
 }
-.container>#section2{
+#section2{
 	background-color: #fff;
 }
 .image>img{
 	display: block;
-	/*border: 5px solid #fff;*/
-	padding: 5%;
 
 }
 #read{
